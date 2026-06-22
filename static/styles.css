@@ -1,0 +1,109 @@
+/* ===== Général ===== */
+
+body {
+    background: #f4f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.table {
+    background: white;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* ===== Boutons ===== */
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #146c43;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+.btn-warning {
+    color: white;
+}
+
+/* ===== Tableau ===== */
+
+table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+input,
+select {
+    border-radius: 6px !important;
+}
+
+/* ===== Modal ===== */
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background: #0d6efd;
+    color: white;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width:768px){
+
+table{
+    font-size:14px;
+}
+
+.btn{
+    margin-top:5px;
+}
+
+}
